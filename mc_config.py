@@ -4,15 +4,19 @@
 # Global Variables
 ###############################################################################
 user = 'admin'
-password = 'xxxxxxxxxxxxxxx'
-mgmtcenter_host = 'mgmtcenter.xxxxxxxxxxx.com'
-shared_uid = 'E4454935-61DE-421F-8393-BFE38B334E7C'
+
+# moved password to mc_auth.py
+# password = "xxxxxxxxxxx"
+
+##############################################################################
+# Use the following MC URL to determine the UID of the SHARED Object to edit and
+# the POLICY to install https://hostname:8082/api/policies
+###############################################################################
+
+mgmtcenter_host = 'mgmtcenter.secureitquest.com'
+shared_uid = 'EECFD24A-4FEE-4D4C-9692-B90F95B407C1'
 policy_uid = 'BD435D17-F97B-4A0E-94F8-6324BA82512F'
-deny_urls = ['abc123.com',
-             'def456.com',
-             'ghi789.com',
-             'login.microsoftonline.com',
-             'login.microsoft.net',
-             'login.window.com',
-             'office365.com',
-             'office.com']
+
+# if you need to test without a HTTPS access able .txt file
+deny_urls = ['abc123.com', 'abc456.com', 'abc789.com', 'def123.com', 'def456.com', 'def789.com', 'ghi123.com',
+             'ghi456.com', 'ghi789.com', 'espn8.com']
