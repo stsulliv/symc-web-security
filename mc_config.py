@@ -13,7 +13,7 @@ user = 'admin'
 # the POLICY to install https://hostname:8082/api/policies
 ###############################################################################
 
-mgmtcenter_host = 'mgmtcenter.secureitquest.com'
+mgmtcenter_host = 'mgmtcenter.domain.com'
 shared_uid = 'EECFD24A-4FEE-4D4C-9692-B90F95B407C1'
 policy_uid = 'BD435D17-F97B-4A0E-94F8-6324BA82512F'
 
